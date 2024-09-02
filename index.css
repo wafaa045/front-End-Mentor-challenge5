@@ -1,0 +1,203 @@
+ *{ margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+body{
+    background-color: hsl(210, 46%, 95%);}
+ .perant_section{ display: flex; 
+
+padding:80px ;
+background-color: hsl(210, 46%, 95%);
+
+ }
+.first_child img{ 
+    width:500px;
+border-top-left-radius: 10px;
+
+border-bottom-left-radius: 10px;}
+
+
+
+.secand_child{ background-color: #ffff;
+padding:40px 20px;
+border-top-right-radius: 10px;
+
+border-bottom-right-radius: 10px;
+height:400px; 
+width:800px;
+
+}
+.secand_childOne h1{ margin: 10px;
+font-size: 30px;}
+.secand_childOne p{ margin: 10px;
+    font-size: 20px;
+}
+.secand_childTwo{ margin-top:10px;
+padding: 10px;
+display: flex;
+justify-content: space-between;
+}
+
+.personal_inf{display: flex;}
+
+.personal_inf img{ border-radius: 50%;
+width: 100px;
+height: 100px;
+margin-top: 30px;
+}
+.personal_inf div{  margin: 50px 0px 0px 20px; }
+
+
+.icon_share_div{ 
+border-radius: 50%;
+background-color: hsl(210, 46%, 95%);
+width:30px;
+margin: 60px 40px 60px 80px;
+height: 20px;
+padding:25px;
+
+}
+.icon_share_div img{ 
+margin: -55px 6px 0px -15px ;
+/* border: 3px red solid; */
+width: 30px;
+}
+#hiddenContent{ 
+   height:40px ;
+   width: 250px;
+   justify-content: space-evenly;
+   padding:10px;
+   border-radius: 10px;
+    background-color: hsl(214, 17%, 51%);
+    display: none;
+   
+    margin-left:200px;
+    position: fixed;
+    top:280px;
+   z-index: 100; 
+    left:980px;
+
+}  
+#hiddenContent span{text-transform: uppercase; color: #ffff;margin-left: 2px;}
+.triangle-down {
+    width: 0px;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right:10px solid transparent;
+    border-top:20px solid hsl(214, 17%, 51%);;
+    
+    position: fixed;
+    /* top:360px; */
+   z-index: 100; 
+   left: 1300px; 
+   top:310px; 
+  
+}
+/* /////rspons */
+
+ @media (max-width: 600px) { 
+
+    .perant_section{  
+      display: flex;
+     flex-direction: column;
+    background-color: hsl(210, 46%, 95%); 
+   
+    align-items: center;
+    }
+    .first_child img{ 
+        width:480px;
+    border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     border-bottom-left-radius:0px;}
+    
+    
+    .secand_child{ 
+    padding:20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    border-top-right-radius: 0px;
+    margin-top:-5px;
+    height:440px; 
+    width:480px;
+}
+    
+   
+     .secand_childOne h1{ margin:15px 0px;}
+     .secand_childOne p{ margin:15px 0px;}   
+     .secand_childTwo{ margin-top:-10px;
+        padding: 0px;
+        display: flex;
+        
+     }
+        
+        
+        .personal_inf img{width: 80px;
+        height: 80px;}
+        .personal_inf{  height:100px; margin-top:20px;}
+        .personal_inf div{
+            margin: 45px 0px 0px 8px;
+           
+        }
+        .personal_inf h2{ font-size: 20px;
+        margin: 5px 0px;}
+        .personal_inf h3{ font-size: 15px;}
+        
+        .icon_share_div{   margin:70px 10px 35px 80px;  }
+           
+               
+            
+   
+}
+
+/*///////div_share  */
+
+.secand_childTwo_mobil{ 
+    display: flex;
+    height:80px ;
+    width: 480px;
+    justify-content: space-evenly;
+    padding: 20px;
+     background-color: hsl(214, 17%, 51%);
+      /* margin-top:-150px; */
+      border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.secand_childTwo_mobil div{margin-top:20px;}
+.secand_childTwo_mobil div img{ width:30px ;  margin-top:-5px;}
+.secand_childTwo_mobil span{text-transform: uppercase; color: #ffff;
+    margin-left: 2px;
+font-size: 20px;
+letter-spacing: 4px;
+}
+.icon_share_mobil{
+
+
+width: 45px !important;
+cursor: pointer;
+
+border-radius: 50%;
+background-color: hsl(210, 46%, 95%);
+
+padding: 10px 5px;
+height: 40px;
+margin-left: 40px;
+margin-top: 5px !important;
+
+}
+ .icon_share_mobil img{ 
+width:30px ;  margin-top:-5px;
+margin-left: 5px;}
+
+
+.hidden_mobil{display:none;}
+
+
+
+.attribution { font-size: 11px; text-align: center;
+    background-color: hsl(210, 46%, 95%); }
+.attribution a { color: hsl(228, 45%, 44%); 
+font-size: 15px;}
